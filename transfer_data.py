@@ -10,7 +10,7 @@ points_scored_at_prev_school = np.array([76, 1125, 274, 43, 31, 173, 29, 598])
 points_scored_at_gt = np.array([619, 327, 963, 647, 342, 328, 310, 294])
 players = pd.DataFrame({
     'Name': names,
-    'Year':years,
+    'Year Joined':years,
     'Previous School': transferred_from,
     'Games Played at Previous School' : games_played_at_prev_school,
     'Games Played at GT': games_played_at_gt,
